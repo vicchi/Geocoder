@@ -10,7 +10,7 @@ class TimedGeocoderTest extends TestCase
     protected function setUp()
     {
         $this->stopwatch = new Stopwatch();
-        $this->delegate = $this->getMock('Geocoder\Geocoder');
+        $this->delegate = $this->createMock('Geocoder\Geocoder');
         $this->geocoder = new TimedGeocoder($this->delegate, $this->stopwatch);
     }
 

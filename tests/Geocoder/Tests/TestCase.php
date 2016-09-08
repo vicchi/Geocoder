@@ -23,7 +23,7 @@ abstract class TestCase extends \PHPUnit_Framework_TestCase
             $expects = $this->once();
         }
 
-        $stream = $this->getMock('Psr\Http\Message\StreamInterface');
+        $stream = $this->createMock('Psr\Http\Message\StreamInterface');
         $stream
             ->expects($expects)
             ->method('__toString')
