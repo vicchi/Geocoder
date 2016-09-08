@@ -524,7 +524,7 @@ Version `3.x` is the current major stable version of Geocoder.
 Cookbook
 --------
 
-We have a small cookbook where you can find examples on common use cases: 
+We have a small cookbook where you can find examples on common use cases:
 
 * [Caching responses](/docs/cookbook/cache.md)
 * [Configuring the HTTP client](/docs/cookbook/http-client.md)
@@ -541,10 +541,10 @@ file.
 Unit Tests
 ----------
 
-In order to run the test suite, install the development dependencies:
+In order to run the test suite, install the dependencies:
 
 ```
-$ composer install --dev
+$ composer install
 ```
 
 Then, run the following command:
